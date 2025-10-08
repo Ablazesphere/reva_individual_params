@@ -1,0 +1,25 @@
+/**:
+  ros__parameters:
+    # IMU Corrector parameters for Yahboom 10-Axis IMU
+    # These parameters correct for sensor mounting orientation and biases
+    
+    # Angular velocity offset (rad/s)
+    angular_velocity_offset_x: 0.0
+    angular_velocity_offset_y: 0.0
+    angular_velocity_offset_z: 0.0
+    
+    # Angular velocity scale factor
+    angular_velocity_scale_x: 1.0
+    angular_velocity_scale_y: 1.0
+    angular_velocity_scale_z: 1.0
+    
+    # Linear acceleration offset (m/s^2)
+    linear_acceleration_offset_x: 0.0
+    linear_acceleration_offset_y: 0.0
+    linear_acceleration_offset_z: 0.0
+    
+    # Linear acceleration scale factor
+    linear_acceleration_scale_x: 1.0
+    linear_acceleration_scale_y: 1.0
+    linear_acceleration_scale_z: 1.0
+
